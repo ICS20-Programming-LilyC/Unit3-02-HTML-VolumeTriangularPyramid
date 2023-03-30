@@ -1,0 +1,22 @@
+/* Created by: Lily C
+* Created on: 03/30/2023
+* This CSS file defines the style for index.html
+* Unit3-02-HTML-VolumeTriangularPyramid
+*/
+
+body {
+  background-color: palevioletred;
+}
+
+h1 {
+  background-color: rgb(112 160 255);
+  color: hsl(333deg 93% 56%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #F72585;
+  color: #ffffff;
+}
+

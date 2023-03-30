@@ -10,8 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.pngg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.pngg">
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
     <link rel="manifest" href="./fav_index/site.webmanifest">
     <link rel="stylesheet" href="./css/style.css">
@@ -24,41 +24,42 @@
     <script src="./js/script.js"></script>
 
     <!--MDl components-->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-red.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-light_blue.min.css" />
 
     <!--Header-->
     <h1>Calculating Volume of a Triangular Pyramid with User Input</h1>
 
     <!-- Div for style -->
     <div id="div-one">
-      <p>Hello! Are you in need of the area of a Trapezoid? Your in luck ,because this web page will take your input and use the dimensions you choose to calculate the area of a trapezoid using Javascript! If you want a refresher on the actual formula of a trapezoid, then refer to the image below for the calculations.</p>
+      <p>Are you in need of the volume of a triangluar pyramid? Calculating volume can be tricky, but worry no more because this web page will take your input and use the dimensions that you choose to do the calculations! If you want a refresher on the actual formula of a trapezoid, then refer to the image below.</p>
       <center>
-        <img src="./images/trapezoid formula for area.png" alt="area trapezoid">
+        <img src="./images/Volume of triangluar pyramid formula.png" alt="Volume formula">
+        <img src="./images/Triangular pyramid.png" alt="triangluar pyramid image">
       </center>
     </div>
 
     <!-- Another div for style -->
     <div id="div-two">
       <h3>Insert your input below!</h3>
-      <p> To calculate thevolume of a triangluar pyramid, please fill in the text fields to set the height and the side lengths of a and b.</p>
+      <p> To calculate the volume of a triangluar pyramid, please fill in the text fields to set the height and the side lengths of a and b.</p>
   
     <!-- Form for user input -->
       <form action="javascript:areaSent()">
-        <label for="height">Height of the trapezoid (cm)</label>
+        <label for="height">Height (cm)</label>
         <input type="float" id="height" placeholder="Height...">
         <br>
         <br>
-        <label for="side-a">Length of side A (cm)</label>
+        <label for="side-a">Length a (cm)</label>
         <input type="float" id="side-a" placeholder="Side A length...">
         <br>
         <br>
-        <label for="side-b">Length of side B (cm)</label>
+        <label for="side-b">Length b (cm)</label>
         <input type="float" id="side-b" placeholder="Side B length...">
         <br>
         <br>
   
     <!--Raised button with ripple-->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        <button class="mdl-button mdl-js-button-mdl-button-raised mdl-js-ripple-effect">
           Click to calculate
         </button>
       </form>

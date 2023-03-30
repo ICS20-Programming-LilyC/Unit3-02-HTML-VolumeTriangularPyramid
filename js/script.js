@@ -6,7 +6,7 @@
 
 "use strict"
 /**
- * This function calculates the area of the trapezoid.
+ * This function calculates the volume of a triangluar pyramid.
  */
 function areaSent() {
   
@@ -14,10 +14,8 @@ function areaSent() {
   let height = parseFloat(document.getElementById("height").value);
   let sideA = parseFloat(document.getElementById("side-a").value);
   let sideB = parseFloat(document.getElementById("side-b").value);
-  let sumOfLengths = sideA + sideB;
-  let area = sumOfLengths * height / 2;
+  let volumeOfPyramid = (1/6) * sideB * sideA * height;
   
   //displaying calculations to screen
-  document.getElementById("display-results").innerHTML = "The area of the trapezoid is " + area.toFixed(2) + " cm<sup>2</sup>."
+  document.getElementById("display-results").innerHTML = "The area of the trapezoid is " + volumeOfPyramid.toFixed(2) + " cm<sup>2</sup>"
 }
-

@@ -15,8 +15,11 @@ h1 {
   text-align: center;
 }
 
-p {
-  background-color: #F72585;
+h3 {
   color: #ffffff;
 }
 
+p {
+  background-color: #f72585;
+  color: #ffffff;
+}

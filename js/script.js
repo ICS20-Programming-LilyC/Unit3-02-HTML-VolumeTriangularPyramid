@@ -6,7 +6,7 @@
 
 "use strict"
 /**
- * This function calculates the volume of a triangluar pyramid.
+ * This function calculates the volume of a triangular pyramid.
  */
 function areaSent() {
   
@@ -17,5 +17,5 @@ function areaSent() {
   let volumeOfPyramid = (1/6) * sideB * sideA * height;
   
   //displaying calculations to screen
-  document.getElementById("display-results").innerHTML = "The area of the trapezoid is " + volumeOfPyramid.toFixed(2) + " cm<sup>2</sup>"
+  document.getElementById("display-results").innerHTML = "The volume of the triangular pyramid is " + volumeOfPyramid.toFixed(2) + " cm<sup>2</sup>"
 }
